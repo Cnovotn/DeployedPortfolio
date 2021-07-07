@@ -1,0 +1,193 @@
+/* .hamburger .line{
+    width: 50px;
+    height: 5px;
+    background-color: #ecf0f1;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+} */
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    width: 100%;
+    height: 6vh;
+}
+#nav-leftside{
+    width: 50%;
+    display: inline;
+}
+.navName{
+    font-size: 2.0em;
+    width: 44%;
+}
+
+#nav-rightside{
+    display: flex;
+    width: 50%;
+}
+
+#button-container{
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+
+.header-button{
+    width: 100%;
+    letter-spacing: 0;
+    height: 80%;
+    margin: 1%;
+    font-size: 1.0em;
+    background: transparent;
+    border: none;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    outline: none;
+}
+
+.header-button:hover,
+.header-button:active {
+  letter-spacing: 5px;
+}
+
+.header-button:after,
+.header-button:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.header-button:hover:after,
+.header-button:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.header-button:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+.transparent {
+  background-color: rgba(128,128,128,0.5);
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.nav {
+  width: 100%;
+  height: 6vh;
+  position: fixed;
+  background-color: #4d4d4d;
+  top:0;
+  z-index: 5;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: flex;
+  float: right;
+  font-size: 18px;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    background-color: #4d4d4d;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(40vh);
+    overflow-y: auto;
+  }
+}

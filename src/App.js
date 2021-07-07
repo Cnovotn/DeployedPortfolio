@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React  from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Landing from './pages/Landing/Landing'
+import AboutMe from './pages/AboutMe/AboutMe'
+import Projects from './pages/Projects/projects';
+import Education from './pages/Education/education'
+import WorkSection from './pages/WorkExperience/WorkSection'
+import FadeIn from 'react-fade-in';
+import Load from './LoadAnimation/load'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App"></div>
+          <Load/>
+          <FadeIn delay={5000}>
+            <Switch>
+              <Route exact path="/aboutme" component={AboutMe}></Route>
+              <Route exact path="/education" component={Education}></Route>
+              <Route exact path="/projects" component={Projects}></Route>
+              <Route exact path="/work" component={WorkSection}></Route>
+              <Route path="/" component={Landing}></Route>
+            </Switch>
+          </FadeIn>
+    </Router>
   );
 }
 

@@ -1,0 +1,67 @@
+#main-aboutme-section{
+    height: 100vh;
+    width: 100%;
+    min-height: 50vh;
+    max-height: 100vh;
+    background-image: url(../../static/img/SkiingBackground.jpeg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    z-index: 1;
+}
+#main-aboutme-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #CEDFD9, #79b791);
+    opacity: .2;
+}
+
+.centered{
+    text-align: center;
+
+}
+#profile-pic{
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#about-left-side {
+    width: 30%;
+}
+#about-right-side {
+    width: 70%;
+}
+.float-right {
+    float: right;
+}
+#skills-container{
+    align-content: center;
+}
+.single-skill{
+    height: 30px;
+    width: 80%;
+    background: #AEC5EB;
+}
+.single-skill-title{
+    width: 10%;
+    font-size: 1.2rem;
+    vertical-align: center;
+
+    background: #CEDFD9;
+}
+.single-skill-center{
+
+}
+.single-skill-percent{
+
+}

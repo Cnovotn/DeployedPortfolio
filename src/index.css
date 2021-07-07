@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  /* background-color: #595959; */
+  color: #0C090D;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+p{
+  font-size: 1.5rem;
+}
+/* color palette */
+
+/* Davys Grey #595959 */
+/* Xandu #808F85 */
+/* Eton Blue #91C499 */
+/* Linen F2E9DC */
+/* Pear #CFD11A */
+
+/* 
+Rich Black Fogra #0C090D
+Old Lavender #6D6875
+Middle Green #4C956C
+Persian Orange #D68C45
+Platinum #E2E2E2 
+*/
