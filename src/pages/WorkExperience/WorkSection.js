@@ -118,7 +118,7 @@ export default class WorkSection extends Component {
                     </div>
                     <div class="blog-card">
                         <div class="meta">
-                        <div class="photo" style={{backgroundImage: "url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"}}></div>
+                        <div class="photo" style={{backgroundImage: "url(https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/341b8ec179b82a06d54cd60319973e10fcec88cb/src/static/companypics/vibe-board.jpg)"}}></div>
                         <ul class="details">
                             <li class="author"><a href="https://vibe.us/">Vibe.us</a></li>
                             <li class="date">Sep 2020 - Jan 2021</li>
@@ -141,7 +141,7 @@ export default class WorkSection extends Component {
                     </div>
                     <div class="blog-card alt">
                         <div class="meta">
-                        <div class="photo" style={{backgroundImage: "url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"}}></div>
+                        <div class="photo" style={{backgroundImage: "url(https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/341b8ec179b82a06d54cd60319973e10fcec88cb/src/static/companypics/vibe-board3.jpg)"}}></div>
                         <ul class="details">
                             <li class="author"><a href="https://vibe.us/">Vibe.us</a></li>
                             <li class="date">Jun 2019 - March 2020</li>
@@ -165,7 +165,7 @@ export default class WorkSection extends Component {
                     </div>
                     <div class="blog-card">
                         <div class="meta">
-                        <div class="photo" style={{backgroundImage: "url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"}}></div>
+                        <div class="photo" style={{backgroundImage: "url(https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/341b8ec179b82a06d54cd60319973e10fcec88cb/src/static/companypics/glimpse.jpg)"}}></div>
                         <ul class="details">
                             <li class="author"><a href="https://www.crunchbase.com/organization/glimpse-wearables">Funding Page</a></li>
                             <li class="date">Jun 2018 - Sep 2019</li>
