@@ -1,0 +1,137 @@
+.skills-container{
+    margin: 0;
+    padding-top: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    background: #494947; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain-skill{
+    /* width: 1000px; */
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.contain-skill .card{
+    position: relative;
+    cursor: pointer;
+    padding-top: 0px;
+}
+
+.contain-skill .card .face{
+    width: 90%;
+    height: 250px;
+    transition: 0.5s;
+    padding-top: 0;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.contain-skill .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding-top: 0;
+    transform: translateY(100px);
+}
+
+.contain-skill .card:hover .face.face1{
+    background: #AEC5EB;
+    transform: translateY(0);
+}
+
+.contain-skill .card .face.face1 .content{
+    opacity: 0.4;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.contain-skill .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.contain-skill .card .face.face1 .content img{
+    max-width: 100%;
+}
+
+.contain-skill .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.contain-skill .card .face.face2{
+    position: relative;
+    background: #fff;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+.contain-skill .card .face.face2 .content{
+    padding-top: 0%;
+    padding: 3px;
+}
+.contain-skill .card .face.face2 .content p{
+    opacity: 0;
+    color:#333;
+    padding: 3px;
+}
+.contain-skill .card:hover .face.face2 {
+    opacity: 1;
+    transition: 500ms ease-in-out;
+}
+.contain-skill .card:hover .face.face2 .content p{
+    opacity: 1;
+    transition: 500ms ease-in-out;
+}
+
+@media (max-width: 728px) { 
+    .contain-skill {
+        display: inline;
+    }
+    .contain-skill .card .face{
+        width: 100%;
+    }
+}
+.contain-skill .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.contain-skill .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.contain-skill .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.contain-skill .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
+}

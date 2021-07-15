@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import './style.css'
 import "../GenCSS/main.css"
+import SkillsSection from "../SkillSection/SkillsSection"
 
 import Navbar from '../../Navbar/Navbar'
+import SkillsCards from '../SkillSection/SkillsCards'
+
 export default class AboutMe extends Component {
     static propTypes = {
 
@@ -55,24 +58,11 @@ export default class AboutMe extends Component {
             <div>
                 <Navbar/>
                 <main className="page-container">
-                    <div className="flex-row">
-                        <div id="about-left-side" className="centered">
-                            <h1>Clayton Novotney</h1>
-                        </div>
-                        <div id="about-right-side" className="float-right">
-                            <h1 className="centered">My Languages</h1>
-                            <div id="skills-container">
-                                <div className="single-skill flex-row centered">
-                                    <div className="single-skill-title">Python</div>
-                                    <div className="single-skill-center"></div>
-                                    <div className="single-skill-percent">90%</div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="intro-section">
+                        <h1 className='section-name'>About Me</h1>
+                        <hr></hr>
                     </div>
-                    <div id="general-skills" className="flex-row">
-
-                    </div>
+                    <SkillsSection/>
                 </main>
             </div>
         )

@@ -1,5 +1,6 @@
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .blurImg {
     position: relative;
@@ -30,7 +31,13 @@ h1 {
     font-size: 3.4em;
     margin-bottom: 0.2em;
 }
-
+.eighty {
+  width: 80%;
+  margin-left: 10%;
+}
+.padded-top {
+  padding-top: 40px;
+}
 nav ul li a.active {
     -webkit-box-shadow: 0px -1px 0px #fff;
     box-shadow: 0px -1px 0px #fff;
@@ -42,11 +49,13 @@ nav ul li a.active {
   .container {
     background: #fff;
     z-index: 1;
-    padding: 0px 20px;
   }
-  .container div {
-    max-width: 80%;
-    margin: 0 auto;
-    padding-top: 40px;
+@media (max-width:600px) {
+  .eighty{
+    margin-left: 5%;
+    width: 90%;
   }
-  
+  p{
+    font-size: 1.3rem;
+  }
+}

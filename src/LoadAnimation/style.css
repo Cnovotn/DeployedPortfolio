@@ -17,7 +17,8 @@
   top: 0%; */
 }
 .wrapper {
-  position: relative;
+  position: fixed;
+  top: 40%;
   color: #fff;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -47,7 +48,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 0.75rem;
+  width: 0.65rem;
   height: 120%;
   background: #494947;
   z-index: -1;
@@ -74,14 +75,29 @@
   position: absolute;
   background: #fff;
 }
+@media screen and (max-width: 600px) {
+  .wrapper{
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wrapper{
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .wrapper{
+    font-size: 1.6rem;
+  }
+}
 .sides .side:nth-child(1) {
   top: 0;
   left: 0;
   width: 100%;
   height: 0.15rem;
   transform: translateX(-101%);
-  -webkit-animation: side-top ease 6s ;
-          animation: side-top ease 6s ;
+  -webkit-animation: side-top ease 6s;
+          animation: side-top ease 6s;
 }
 .sides .side:nth-child(2) {
   top: 0;
@@ -89,8 +105,8 @@
   width: 0.15rem;
   height: 100%;
   transform: translateY(-101%);
-  -webkit-animation: side-right ease 6s ;
-          animation: side-right ease 6s ;
+  -webkit-animation: side-right ease 6s;
+          animation: side-right ease 6s;
 }
 .sides .side:nth-child(3) {
   left: 0;
@@ -98,8 +114,8 @@
   width: 100%;
   height: 0.15rem;
   transform: translateX(101%);
-  -webkit-animation: side-bottom ease 6s ;
-          animation: side-bottom ease 6s ;
+  -webkit-animation: side-bottom ease 6s;
+          animation: side-bottom ease 6s;
 }
 .sides .side:nth-child(4) {
   top: 0;
@@ -107,8 +123,8 @@
   width: 0.15rem;
   height: 100%;
   transform: translateY(101%);
-  -webkit-animation: side-left ease 6s ;
-          animation: side-left ease 6s ;
+  -webkit-animation: side-left ease 6s;
+          animation: side-left ease 6s;
 }
 .text {
   position: relative;
@@ -126,8 +142,8 @@
 }
 .text--left .inner {
   transform: translateX(100%);
-  -webkit-animation: text-left 6s ease-in-out ;
-          animation: text-left 6s ease-in-out ;
+  -webkit-animation: text-left 6s ease-in-out;
+          animation: text-left 6s ease-in-out;
 }
 .text--right {
   position: absolute;
@@ -139,8 +155,8 @@
 }
 .text--right .inner {
   transform: translateX(-200%);
-  -webkit-animation: text-right 6s ease-in-out ;
-          animation: text-right 6s ease-in-out ;
+  -webkit-animation: text-right 6s ease-in-out;
+          animation: text-right 6s ease-in-out;
 }
 @-webkit-keyframes slash {
   0% {

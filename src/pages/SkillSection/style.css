@@ -1,0 +1,85 @@
+/* #skills span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+}
+
+progress {
+    background-color: #f3f3f3;
+    border: 0;
+    height: 2.5em;
+    width: 100%;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #AEC5EB;
+}
+
+progress::-webkit-progress-value {
+    background-color: black;
+}
+
+progress::-moz-progress-bar {
+    background-color: black;
+}
+
+.full-width{
+    width: 100%;
+} */
+.skills {
+    margin: 0 auto;
+}
+
+.skills hr {
+    margin: 50px 5%;
+}
+.skills-row{
+    display: flex;
+}
+.skills .skill-column {
+    width: 50%;
+}
+@media (max-width: 1000px) {
+    .skills .skill-column {
+      width: 100%;
+    }
+    .skills-row{
+        display: inline;
+    }
+}
+@media screen and (max-width: 500px) {
+    .skills .skill-column .skill-icons span {
+        height: 20px;
+        width: 20px;
+    }
+}
+.skills .skill-column .skill-label {
+    font-size: 20px;
+    text-align: center;
+    color: #cccccc;
+}
+.skills .skill-column .skill-icons {
+    text-align: center;
+}
+.skills .skill-column .skill-icons span {
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 5px 20px 5px;
+    font-weight: 700;
+}
+@media screen and (min-width: 500px) {
+    .skills .skill-column .skill-icons span {
+        height: 35px;
+        width: 35px;
+    }
+}
+.inactive-icon{
+    background: #AEC5EB;
+}
+.active-icon {
+    background: black;
+}

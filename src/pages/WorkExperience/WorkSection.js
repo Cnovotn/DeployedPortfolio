@@ -93,10 +93,13 @@ export default class WorkSection extends Component {
                 <div className="page-container">
                     <div className="intro-section">
                         <h1 className='section-name'>Work Experience</h1>
+                        <p>Over the years I have worked with a number of different start ups and established companies. I have worked in many different positions, allowing me to understand the
+                            ins and outs of all aspects of product development, management, maintenance, sales, and customer relations.
+                        </p>
                     </div>
                     <div class="blog-card alt">
                         <div class="meta">
-                        <div class="photo" style={{backgroundImage: "url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"}}></div>
+                        <div class="photo" style={{backgroundImage: "url(https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/companypics/arrived_homes.png)"}}></div>
                         <ul class="details">
                             <li class="author"><a href="https://arrivedhomes.com/" target="_blank">ArrivedHomes.com</a></li>
                             <li class="date">Jan 2021 - Jun 2021</li>
@@ -132,7 +135,7 @@ export default class WorkSection extends Component {
                             <h2>Vibe Inc - 3 Months</h2>
                             <p>Communicated with customers experiencing technical issues with their Vibe board via email and video calls.</p>
                             <p>Collected logs from customer devices to determine cause for chief complaint.</p>
-                            <p>Communicated with product and engineering team about errors/bugs with systems causing issues with customers devices.</p>
+                            <p>Communicated with product and engineering team about errors/bugs with systems causing issues with devices.</p>
                             <p>Consulted with the engineering team to determine possible solutions.</p>
                             <p class="read-more">
                                 <a href="https://knowledge.vibe.us/" target="_blank">Read More</a>
@@ -165,7 +168,7 @@ export default class WorkSection extends Component {
                     </div>
                     <div class="blog-card">
                         <div class="meta">
-                        <div class="photo" style={{backgroundImage: "url(https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/341b8ec179b82a06d54cd60319973e10fcec88cb/src/static/companypics/glimpse.jpg)"}}></div>
+                        <div class="photo" style={{backgroundImage: "url(https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/companypics/glimpse.jpg)"}}></div>
                         <ul class="details">
                             <li class="author"><a href="https://www.crunchbase.com/organization/glimpse-wearables">Funding Page</a></li>
                             <li class="date">Jun 2018 - Sep 2019</li>
@@ -182,6 +185,27 @@ export default class WorkSection extends Component {
                             <p>Built and deployed various full stack services, including websites, API’s, databases, and the beginning stages of machine learning processes.</p>
                             <p>Worked with and managed a team of 5 developers responsible for developing, deploying, maintaining and updating previously mentioned services.</p>
                             <p>Member of the founding team that helped lead direction of the company.</p>
+                        </div>
+                    </div>
+                    <div class="blog-card alt">
+                        <div class="meta">
+                        <div class="photo" style={{backgroundImage: "url(https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/companypics/NationalSkiPatrol.jpg)"}}></div>
+                        <ul class="details">
+                            <li class="author"><a href="https://nspserves.org/">National Ski Patrol</a></li>
+                            <li class="date">Apr 2015 - Current</li>
+                            <li class="tags">CPR Certified</li>
+                            <li class="tags">Outdoor Emergency Care (OEC) Certified</li>
+                            <li class="tags">Toboggan Certified</li>
+                        </ul>
+                        </div>
+                        <div class="description">
+                            <h1>Alpine Patroller</h1>
+                            <h2>National Ski Patrol - 6+ Years</h2>
+                            <p>I completed 10-month Outdoor Emergency Care, CPR and toboggan courses to get certified in each respect. Each year I participate in a OEC refresher and every other year I get re-certified for CPR.</p>
+                            <p>While patrolling, I provided customer service to all guests on the mountain, ranging from medical emergencies to conducting search and rescues.</p>
+                            <p class="read-more">
+                                <a href="https://nspserves.org/about-the-organization/" target="_blank">Read More</a>
+                            </p>
                         </div>
                     </div>
                 </div>

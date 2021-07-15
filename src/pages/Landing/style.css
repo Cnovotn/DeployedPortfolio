@@ -6,9 +6,69 @@
 }
 
 .introName{
-    font-size: 14vh;
+    font-size: 13vh;
 }
 
 .introGeneral{
-    font-size: 5vh;
+    font-size: 76%;
+}
+#profile-pic{
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+}
+@media screen and (max-width: 768px) {
+    .introName{
+        font-size: 10vh;
+    }
+    .introGeneral{
+        font-size: 3vh;
+    }
+    #profile-pic{
+        width: 50%;
+    }
+    .container{
+        padding:0;
+    }
+}
+
+
+.slanted-div, .slanted-div-alt {
+    position: relative;
+    background: #181818;
+    overflow: visible;
+    z-index: 1;
+}
+.slanted-div-alt h1{
+    color: #fff;
+}
+
+.slanted-div:before, .slanted-div:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    transform-origin: left top;
+    transform: skewY(-3deg);
+}
+.slanted-div-alt:before, .slanted-div-alt:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: #494947;
+    z-index: -1;
+    top: 0;
+    transform-origin: left top;
+    transform: skewY(3deg);
+}
+
+#skills-section {
+    padding-top: 5%;
+    color: #fff;
 }

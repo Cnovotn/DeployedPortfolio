@@ -13,8 +13,9 @@ function App() {
   return (
     <Router>
       <div className="App"></div>
-          <Load/>
-          <FadeIn delay={5000}>
+          {/* <Load/> */}
+          {/* <FadeIn delay={5000}> */}
+          <FadeIn delay={500}>
             <Switch>
               <Route exact path="/aboutme" component={AboutMe}></Route>
               <Route exact path="/education" component={Education}></Route>
