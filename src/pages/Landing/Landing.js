@@ -66,7 +66,6 @@ export default class Landing extends Component {
                         <div className="eighty">
                             <h1>My Favorite Projects</h1>
                             <hr></hr>
-                            {/* <p>Some of my favorite projects I have been a part of.</p> */}
                             <Projects/>
                         </div>
                     </section>

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 import './style.css'
 import "../GenCSS/main.css"
-import Navbar from '../../Navbar/Navbar'
 export default class Projects extends Component {
     static propTypes = {
 
@@ -11,22 +10,6 @@ export default class Projects extends Component {
     render() {
         return (
             <div>
-                <Navbar />
-                {/* <div className="page-container">
-                    <div className="intro-section">
-                        <h1 className='section-name'>Projects</h1>
-                        <p>
-                            Glimpse,
-                            Arrived Homes,
-                            Nba Magnet Board,
-                            Mock Shazam,
-                            Ronovo,
-                            Big Beertha,
-                            Water Temperature Sensor,
-
-                        </p>
-                    </div>
-                </div> */}
                 <div>
                     <div className="grid-container">
                         <div className="grid-row">
@@ -86,7 +69,8 @@ export default class Projects extends Component {
                             <div className="small-tile tile tile-case">
                                 <a href="#">
                                     <div className="tile-primary-content">
-                                        <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/ronovoImages/homepage.png" alt=""/>
+                                        <h2>Personal Project</h2>
+                                        <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/codeScreenshot.png" alt=""/>
                                     </div>
                                     <div class="tile-secondary-content">
                                         <h2>Personal Project</h2>
@@ -101,7 +85,8 @@ export default class Projects extends Component {
                             <div className="small-tile tile tile-case">
                                 <a href="#">
                                     <div className="tile-primary-content">
-                                        <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/ronovoImages/homepage.png" alt=""/>
+                                        <h2>Personal Project</h2>
+                                        <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/raspberry-pi.png" alt=""/>
                                     </div>
                                     <div class="tile-secondary-content">
                                         <h2>Personal Project</h2>
@@ -112,55 +97,21 @@ export default class Projects extends Component {
                                     </div>
                                 </a>
                             </div>
-                        </div>
-                        {/* <div className="grid-row">
-                            <div className="small-tile tile"></div>
-                            <div className="small-tile tile"></div>
-                            <div className="small-tile tile"></div>
-                        </div>
-                        <div className="grid-row">
-                            <div className="large-tile tile"></div>
-                            <div className="small-tile tile"></div>
-                        </div> */}
-                        <div>
-                            {/* <ul class="masonry-list">
-                            <li class="tile-case small-tile">
+                            <div className="small-tile tile tile-case">
                                 <a href="#">
-                                    <div class="tile-primary-content">
-                                        <img src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/ronovoImages/homepage.png" alt=""/>
+                                    <div className="tile-primary-content">
+                                        <h2>Personal Project</h2>
+                                        <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/FullNovotneyLogo.png" alt=""/>
                                     </div>
                                     <div class="tile-secondary-content">
                                         <h2>Personal Project</h2>
-                                        <p>Smart Home Water Sensor</p>
-                                        <h3>U</h3>
+                                        <p>Kitchen Bandit</p>
+                                        <h4>Hardware: Raspberry-pi</h4>
+                                        <h4>Back-End: MySQL on AWS, S3 Buckets for video storage</h4>
+                                        <h4>Middleware: Python using AWS rekognition to identify and notify individuals.</h4>
                                     </div>
                                 </a>
-                            </li>
-                            <li class="tile-case large-tile">
-                                <a href="#">
-                                <div class="tile-primary-content">
-                                    <img src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/arrivedImages/ViewPage.png" alt=""/>
-                                </div>
-                                <div class="tile-secondary-content">
-                                    <h2>Green Point Real Estate</h2>
-                                    <p>Backend Developer</p>
-                                    <h3>A real estate management platform for investors, current tenents, possible tenents, and company employees.</h3>
-                                </div>
-                                </a>
-                            </li>
-                            <li class="tile-case small-tile">
-                                <a href="#">
-                                <div class="tile-primary-content">
-                                    <img src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/ronovoImages/homepage.png" alt=""/>
-                                </div>
-                                <div class="tile-secondary-content">
-                                    <h2>Green Point Real Estate</h2>
-                                    <p>Backend Developer</p>
-                                    <h3>A real estate management platform for investors, current tenents, possible tenents, and company employees.</h3>
-                                </div>
-                                </a>
-                            </li>
-                        </ul> */}
+                            </div>
                         </div>
                     </div>
                 </div>
