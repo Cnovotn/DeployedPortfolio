@@ -13,7 +13,8 @@ export default class ProjectsSection extends Component {
         return (
             <div>
                 <Navbar />
-                <div className="eighty">
+                <div id="projects-page" className="eighty">
+                    <h1 className="section-name">My Projects</h1>
                     <Projects/>
                 </div>
             </div>

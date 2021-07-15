@@ -42,8 +42,8 @@ body{
 }
 
 .page-container{
-    width: 90%;
-    margin:5%;
+    width: 80%;
+    margin:5% 10% 10% 10%;
     /* background: #595959; */
 }
 

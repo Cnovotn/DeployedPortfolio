@@ -1,3 +1,6 @@
+#projects-page{
+    margin-top: 5%;
+}
 .grid-container{
     width: 100%;
 }
@@ -47,6 +50,17 @@
     height: 100%;
     position: relative;
     width: 100%;
+}
+.grid-row .initial-info {
+    opacity: 1;
+    padding: 5%;
+}
+.grid-row .tile:hover .initial-info{
+    color: #fff;
+    transition: 200ms;
+}
+.dark {
+    color: black;
 }
 .grid-row .tile-secondary-content {
     opacity: 0;
@@ -124,7 +138,7 @@
     text-transform: uppercase;
 }
 .grid-row h2 {
-    font-size: 12px;
+    font-size: 20px;
     margin: 0;
     position: absolute;
 }
@@ -146,10 +160,10 @@
 }
 .grid-row .tile.tile-case .tile-secondary-content, .masonry-list li.tile-client .tile-secondary-content, .masonry-list li.tile-person .tile-secondary-content {
     background-color: rgba(0, 0, 0, 0.7);
-    -moz-transition: opacity 100ms ease-out;
-    -o-transition: opacity 100ms ease-out;
-    -webkit-transition: opacity 100ms ease-out;
-    transition: opacity 100ms ease-out;
+    -moz-transition: opacity 600ms ease;
+    -o-transition: opacity 600ms ease;
+    -webkit-transition: opacity 600ms ease;
+    transition: opacity 600ms ease;
 }
 /* .content-container{
 

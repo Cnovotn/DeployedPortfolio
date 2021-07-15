@@ -18,8 +18,9 @@ export default class Projects extends Component {
                                     <div className="tile-primary-content">
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/glimpse/squareMobile.png" alt=""/>
                                     </div>
+                                    <h2 className="initial-info dark">GlimpseWearbles</h2>
                                     <div class="tile-secondary-content">
-                                        <h2>GlimpseWearbles Start-up</h2>
+                                        <h2>GlimpseWearbles</h2>
                                         <p>Full Stack Engineer</p>
                                         <h3>A real estate management platform for investors, current tenents, possible tenents, and company employees.</h3>
                                     </div>
@@ -30,6 +31,7 @@ export default class Projects extends Component {
                                     <div className="tile-primary-content">
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/arrivedImages/2-1Homepage.png" alt=""/>
                                     </div>
+                                    <h2 className="initial-info dark">Arrived Homes</h2>
                                     <div class="tile-secondary-content">
                                         <h2>Arrived Homes</h2>
                                         <p>Back-End Developer</p>
@@ -44,6 +46,7 @@ export default class Projects extends Component {
                                     <div className="tile-primary-content">
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/info340/VisualHome.png" alt=""/>
                                     </div>
+                                    <h2 className="initial-info">UW - Client Side Development</h2>
                                     <div class="tile-secondary-content">
                                         <h2>UW - Client Side Development</h2>
                                         <p>Front-End & Middleware</p>
@@ -56,6 +59,7 @@ export default class Projects extends Component {
                                     <div className="tile-primary-content">
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/ronovoImages/homepage.png" alt=""/>
                                     </div>
+                                    <h2 className="initial-info">Green Point Real Estate</h2>
                                     <div class="tile-secondary-content">
                                         <h2>Green Point Real Estate</h2>
                                         <p>Full Stack Engineer</p>
@@ -64,14 +68,13 @@ export default class Projects extends Component {
                                 </a>
                             </div>
                         </div>
-                        <h3>Some Projects In The Pipeline</h3>
                         <div className="grid-row">
                             <div className="small-tile tile tile-case">
                                 <a href="#">
                                     <div className="tile-primary-content">
-                                        <h2>Personal Project</h2>
-                                        <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/codeScreenshot.png" alt=""/>
+                                        <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/smarthome.png" alt=""/>
                                     </div>
+                                    <h2 className="initial-info">Personal Project</h2>
                                     <div class="tile-secondary-content">
                                         <h2>Personal Project</h2>
                                         <p>Smart Home Water Sensor</p>
@@ -85,9 +88,9 @@ export default class Projects extends Component {
                             <div className="small-tile tile tile-case">
                                 <a href="#">
                                     <div className="tile-primary-content">
-                                        <h2>Personal Project</h2>
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/raspberry-pi.png" alt=""/>
                                     </div>
+                                    <h2 className="initial-info">Personal Project</h2>
                                     <div class="tile-secondary-content">
                                         <h2>Personal Project</h2>
                                         <p>Kitchen Bandit</p>
@@ -100,9 +103,9 @@ export default class Projects extends Component {
                             <div className="small-tile tile tile-case">
                                 <a href="#">
                                     <div className="tile-primary-content">
-                                        <h2>Personal Project</h2>
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/FullNovotneyLogo.png" alt=""/>
                                     </div>
+                                    <h2 className="initial-info">Personal Project</h2>
                                     <div class="tile-secondary-content">
                                         <h2>Personal Project</h2>
                                         <p>Kitchen Bandit</p>

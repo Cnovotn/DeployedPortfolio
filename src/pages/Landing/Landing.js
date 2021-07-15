@@ -11,6 +11,8 @@ import SkillsSection from "../SkillSection/SkillsSection"
 import WorkSection from "../WorkExperience/WorkSection"
 import Projects from "../Projects/projects"
 import ContactForm from '../../Contact/contactForm'
+import Footer from '../../Footer/Footer'
+import Pdf from '../../static/resumes/July2021ClayNovoResume.pdf'
 
 export default class Landing extends Component {
     static propTypes = {
@@ -39,16 +41,14 @@ export default class Landing extends Component {
                             <p>I am a recent graduate from the University of Washington with a degree in Informatics focused in Software and Backend Engineering. I have been involved with a handful of full stack products that have allowed me to hone in my skills in all technical aspects of web and mobile development.</p>
                             <br></br>
                             <p>From database development and management, CRUD API's, to responsive front-end applications, I have worked and have a knack for development with all aspects of software engineering!</p>
-                            <ul className="social-icons">
-                                <li><a href="https://github.com/Cnovotn" target="_blank"><i className="fa fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/claytonnovotney/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/claytonnovotney/" target="_blank"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="mailto:claytonnovotney@gmail.com" target="_blank"><i className="fa fa-envelope"></i></a></li>
-                            </ul>
-                            <p className="bold">Let's build something together!</p>
+                            <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+                                <button className="resume-button" trailingIcon="picture_as_pdf" label="Resume">
+                                    View My Resume
+                                </button>
+                            </a>
                         </div>
                     </div>
-                    <section id="skills-section" className="container slanted-div-alt centered padded-top" style={{marginBottom:"10vh"}}>
+                    <section id="skills-section" className="container slanted-div-alt centered padded-top">
                         <div className="eighty">
                             <h1>What I Am About</h1>
                             <hr></hr>
@@ -62,9 +62,9 @@ export default class Landing extends Component {
                         <br/>
                         <SkillsSection/>
                     </section>
-                    <section id="projects-section" className="container slanted-div centered padded-top">
+                    <section id="projects-section" className="container slanted-div padded-top">
                         <div className="eighty">
-                            <h1>My Favorite Projects</h1>
+                            <h1 className="centered">My Favorite Projects</h1>
                             <hr></hr>
                             <Projects/>
                         </div>
@@ -77,6 +77,7 @@ export default class Landing extends Component {
                         </div>
                     </section>
                 </main>
+                <Footer/>
             </div>
         )
     }
