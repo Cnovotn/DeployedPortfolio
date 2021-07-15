@@ -1,0 +1,120 @@
+.personal-div{
+    /* height: 100vh; */
+}
+.personal-section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.personal-container{
+    max-width: 120rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.personal-content{
+    display: flex;
+    background-color: #fff;
+    box-shadow: .5rem .5rem 1rem rgba(0,0,0,0.5);
+}
+
+.personal-content-img{
+    flex: 1;
+}
+
+.personal-content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.personal-content-text{
+    flex: 1.5;
+    padding: 4rem;
+}
+
+.personal-content-text .personal-content-title{
+    color: #222;
+    font-size: 3rem;
+}
+
+.personal-content-text .personal-content-subtitle{
+    font-size: 1.56rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #444;
+    margin: .5rem 0 2rem;
+}
+
+.personal-content-text .personal-content-paragraph{
+    font-size: 1.0rem;
+    margin-bottom: 2rem;
+}
+
+.personal-content-text .btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.5rem 2rem;
+    border: 1px solid #444;
+    color: #444;
+}
+
+
+@media screen and (max-width: 1100px){
+    .personal-content-text{
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .personal-content-text .personal-content-paragraph{
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .personal-content-text .personal-content-subtitle{
+        font-size: 2rem;
+    }
+
+    .personal-content-text .personal-content-title{
+        font-size: 3.2rem;
+    }
+
+    .personal-content-text .btn{
+        padding: 1rem 1.56rem;
+    }
+}
+
+@media screen and (max-width: 756px){
+    .personal-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .personal-content-text .personal-content-paragraph{
+        text-align: justify;
+    }
+
+    .personal-content-img{
+        height: 350px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 456px){
+    .personal-content-text .personal-content-paragraph{
+        font-size: 1.2rem;
+    }
+    .personal-content-text .personal-content-subtitle{
+        font-size: 1.72rem;
+    }
+
+    .personal-content-text .personal-content-title{
+        font-size: 2.7rem;
+    }
+}
