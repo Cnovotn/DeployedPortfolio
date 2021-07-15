@@ -74,9 +74,9 @@ export default class Projects extends Component {
                                     <div className="tile-primary-content">
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/smarthome.png" alt=""/>
                                     </div>
-                                    <h2 className="initial-info">Personal Project</h2>
+                                    <h2 className="initial-info">Current Project</h2>
                                     <div class="tile-secondary-content">
-                                        <h2>Personal Project</h2>
+                                        <h2>Current Project</h2>
                                         <p>Smart Home Water Sensor</p>
                                         <h4>Hardware: Raspberry-pi (V1)</h4>
                                         <h4>Back-End: MSSQL on AWS</h4>
@@ -90,9 +90,9 @@ export default class Projects extends Component {
                                     <div className="tile-primary-content">
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/raspberry-pi.png" alt=""/>
                                     </div>
-                                    <h2 className="initial-info">Personal Project</h2>
+                                    <h2 className="initial-info">Current Project</h2>
                                     <div class="tile-secondary-content">
-                                        <h2>Personal Project</h2>
+                                        <h2>Current Project</h2>
                                         <p>Kitchen Bandit</p>
                                         <h4>Hardware: Raspberry-pi</h4>
                                         <h4>Back-End: MySQL on AWS, S3 Buckets for video storage</h4>
@@ -105,9 +105,9 @@ export default class Projects extends Component {
                                     <div className="tile-primary-content">
                                         <img className="tile-image" src="https://raw.githubusercontent.com/Cnovotn/DeployedPortfolio/master/src/static/img/FullNovotneyLogo.png" alt=""/>
                                     </div>
-                                    <h2 className="initial-info">Personal Project</h2>
+                                    <h2 className="initial-info">Current Project</h2>
                                     <div class="tile-secondary-content">
-                                        <h2>Personal Project</h2>
+                                        <h2>Current Project</h2>
                                         <p>Kitchen Bandit</p>
                                         <h4>Hardware: Raspberry-pi</h4>
                                         <h4>Back-End: MySQL on AWS, S3 Buckets for video storage</h4>

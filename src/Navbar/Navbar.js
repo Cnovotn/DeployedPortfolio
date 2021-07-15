@@ -37,29 +37,6 @@ export default class Navbar extends Component {
             </Link>
           </div>
         </div>
-      // <nav className="transparent">
-      //   <div id="nav-leftside">
-      //     <Link to="/">
-      //       <button type="button" className="header-button">Clay Novotney</button>
-      //     </Link>
-      //   </div>
-      //   <div id="nav-rightside">
-      //     <div id="button-container">
-      //       <Link to="/aboutme">
-      //           <button type="button" className="header-button">About Me</button>
-      //       </Link>
-      //       <Link to="/projects">
-      //         <button type="button" className="header-button">Projects</button>
-      //       </Link>
-      //       <Link to="/work">
-      //         <button type="button" className="header-button">Work</button>
-      //       </Link>
-      //       <Link to="/education">
-      //       <button type="button" className="header-button">Education</button>
-      //       </Link>
-      //     </div>
-      //   </div>
-      // </nav> 
       )
     }
 }

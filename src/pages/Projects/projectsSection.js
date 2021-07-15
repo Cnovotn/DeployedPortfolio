@@ -4,6 +4,7 @@ import './style.css'
 import "../GenCSS/main.css"
 import Navbar from '../../Navbar/Navbar'
 import Projects from "./projects"
+import Footer from '../../Footer/Footer'
 export default class ProjectsSection extends Component {
     static propTypes = {
 
@@ -17,6 +18,7 @@ export default class ProjectsSection extends Component {
                     <h1 className="section-name">My Projects</h1>
                     <Projects/>
                 </div>
+                <Footer/>
             </div>
         )
     }

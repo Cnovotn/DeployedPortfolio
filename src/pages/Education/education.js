@@ -4,6 +4,7 @@ import './style.css'
 import '../GenCSS/intro-section.css'
 import '../GenCSS/main.css'
 import Navbar from '../../Navbar/Navbar'
+import Footer from '../../Footer/Footer'
 export default class Education extends Component {
     static propTypes = {
 
@@ -51,6 +52,7 @@ export default class Education extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

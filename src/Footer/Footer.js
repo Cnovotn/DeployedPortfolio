@@ -9,6 +9,7 @@ export default class Footer extends Component {
       return (
         <footer  className="site-footer centered">
             <h4>Created By Clayton Novotney 2021</h4>
+            <h5>Let's Connect</h5>
             <ul className="social-icons">
                 <li><a href="https://github.com/Cnovotn" target="_blank"><i className="fa fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/claytonnovotney/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
