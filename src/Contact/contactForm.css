@@ -55,7 +55,7 @@ form textarea {
     margin-right: 2%;
 }
   
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .half {
         width: 100%;
         float: none;
