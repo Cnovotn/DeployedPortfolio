@@ -63,9 +63,12 @@ export default class Landing extends Component {
                         <SkillsSection/>
                     </section>
                     <section id="projects-section" className="container slanted-div centered padded-top">
-                        <h1>What I've Done!</h1>
-                        <p>Soime of the projects I have been a part of</p>
-                        <p>Somore more filler</p>
+                        <div className="eighty">
+                            <h1>My Favorite Projects</h1>
+                            <hr></hr>
+                            {/* <p>Some of my favorite projects I have been a part of.</p> */}
+                            <Projects/>
+                        </div>
                     </section>
                     <section id="contact-section" className="container slanted-div-alt centered padded-top">
                         <div className="eighty">
