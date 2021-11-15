@@ -20,7 +20,7 @@ function App() {
               <Route exact path="/education" component={Education}></Route>
               <Route exact path="/projects" component={ProjectsSection}></Route>
               <Route exact path="/work" component={WorkSection}></Route>
-              <Route path="/home" component={Landing}></Route>
+              <Route path="/" component={Landing}></Route>
             </Switch>
           </FadeIn>
     </Router>
