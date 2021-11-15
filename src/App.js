@@ -13,18 +13,19 @@ import RiverHouse from './pages/RiverHouse/riverHouse';
 function App() {
   return (
     <Router>
-      <div className="App"></div>
+      <div className="App">
           <Load/>
           <FadeIn delay={2100}>
             <Switch>
-              <Route path="/riverhouse" component={RiverHouse}></Route>
-              <Route path="/aboutme" component={AboutMe}></Route>
-              <Route path="/education" component={Education}></Route>
-              <Route path="/projects" component={ProjectsSection}></Route>
-              <Route path="/work" component={WorkSection}></Route>
-              <Route path="/" component={Landing}></Route>
+              <Route path="/DeployedPortfolio/riverhouse" exact component={RiverHouse}></Route>
+              <Route path="/DeployedPortfolio/aboutme" exact component={AboutMe}></Route>
+              <Route path="/DeployedPortfolio/education" exact component={Education}></Route>
+              <Route path="/DeployedPortfolio/projects" exact component={ProjectsSection}></Route>
+              <Route path="/DeployedPortfolio/work" exact component={WorkSection}></Route>
+              <Route path="/DeployedPortfolio/" exact component={Landing}></Route>
             </Switch>
           </FadeIn>
+        </div>
     </Router>
   );
 }

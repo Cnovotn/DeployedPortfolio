@@ -23,16 +23,16 @@ export default class Navbar extends Component {
             </label>
           </div>
           <div className="nav-links">
-            <Link to="./aboutme">
+            <Link to="/DeployedPortfolio/aboutme">
               <button type="button" className="header-button">About Me</button>
             </Link>
-            <Link to="./projects">
+            <Link to="/DeployedPortfolio/projects">
               <button type="button" className="header-button">Projects</button>
             </Link>
-            <Link to="./work">
+            <Link to="/DeployedPortfolio/work">
               <button type="button" className="header-button">Experience</button>
             </Link>
-            <Link to="./education">
+            <Link to="/DeployedPortfolio/education">
               <button type="button" className="header-button">Education</button>
             </Link>
           </div>
