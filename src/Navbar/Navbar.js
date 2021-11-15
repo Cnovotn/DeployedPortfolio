@@ -10,7 +10,7 @@ export default class Navbar extends Component {
           <input type="checkbox" id="nav-check"/>
           <div className="nav-header">
             <div className="nav-title">
-            <Link to="/">
+            <Link to="/home">
               <button type="button" className="header-button">Clay Novotney</button>
             </Link>
             </div>
@@ -40,6 +40,3 @@ export default class Navbar extends Component {
       )
     }
 }
-
-
-// sudo certbot --nginx -d claytonnovotney.me -d www.claytonnovotney.me
