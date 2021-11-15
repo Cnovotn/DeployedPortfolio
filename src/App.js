@@ -16,10 +16,10 @@ function App() {
           <Load/>
           <FadeIn delay={2100}>
             <Switch>
-              <Route exact path="/./aboutme" component={AboutMe}></Route>
-              <Route exact path="/./education" component={Education}></Route>
-              <Route exact path="/./projects" component={ProjectsSection}></Route>
-              <Route exact path="/./work" component={WorkSection}></Route>
+              <Route exact path="/DeployedPortfolio/aboutme" component={AboutMe}></Route>
+              <Route exact path="/DeployedPortfolio/education" component={Education}></Route>
+              <Route exact path="/DeployedPortfolio/projects" component={ProjectsSection}></Route>
+              <Route exact path="/DeployedPortfolio//work" component={WorkSection}></Route>
               <Route path="/" component={Landing}></Route>
             </Switch>
           </FadeIn>
