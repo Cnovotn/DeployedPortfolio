@@ -8,6 +8,7 @@ import WorkSection from './pages/WorkExperience/WorkSection'
 import FadeIn from 'react-fade-in';
 import Load from './LoadAnimation/load'
 import ProjectsSection from './pages/Projects/projectsSection';
+import RiverHouse from './pages/RiverHouse/riverHouse';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Load/>
           <FadeIn delay={2100}>
             <Switch>
+              <Route path="/riverhouse" component={RiverHouse}></Route>
               <Route path="/aboutme" component={AboutMe}></Route>
               <Route path="/education" component={Education}></Route>
               <Route path="/projects" component={ProjectsSection}></Route>
