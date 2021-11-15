@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/DeployedPortfolio/static/css/main.a4458976.chunk.css",
+    "main.js": "/DeployedPortfolio/static/js/main.388cc7d4.chunk.js",
+    "main.js.map": "/DeployedPortfolio/static/js/main.388cc7d4.chunk.js.map",
+    "runtime-main.js": "/DeployedPortfolio/static/js/runtime-main.9d3901ca.js",
+    "runtime-main.js.map": "/DeployedPortfolio/static/js/runtime-main.9d3901ca.js.map",
+    "static/js/2.b7f5c732.chunk.js": "/DeployedPortfolio/static/js/2.b7f5c732.chunk.js",
+    "static/js/2.b7f5c732.chunk.js.map": "/DeployedPortfolio/static/js/2.b7f5c732.chunk.js.map",
+    "static/js/3.e69cd5f7.chunk.js": "/DeployedPortfolio/static/js/3.e69cd5f7.chunk.js",
+    "static/js/3.e69cd5f7.chunk.js.map": "/DeployedPortfolio/static/js/3.e69cd5f7.chunk.js.map",
+    "index.html": "/DeployedPortfolio/index.html",
+    "static/css/main.a4458976.chunk.css.map": "/DeployedPortfolio/static/css/main.a4458976.chunk.css.map",
+    "static/js/2.b7f5c732.chunk.js.LICENSE.txt": "/DeployedPortfolio/static/js/2.b7f5c732.chunk.js.LICENSE.txt",
+    "static/media/ClayProfilePic.f4da852a.JPG": "/DeployedPortfolio/static/media/ClayProfilePic.f4da852a.JPG",
+    "static/media/July2021ClayNovoResume.699982a3.pdf": "/DeployedPortfolio/static/media/July2021ClayNovoResume.699982a3.pdf",
+    "static/media/main.css": "/DeployedPortfolio/static/media/SkiPatrolBackground.b98466eb.png",
+    "static/media/style.css": "/DeployedPortfolio/static/media/SkiingBackground.3af4c716.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d3901ca.js",
+    "static/js/2.b7f5c732.chunk.js",
+    "static/css/main.a4458976.chunk.css",
+    "static/js/main.388cc7d4.chunk.js"
+  ]
+}
