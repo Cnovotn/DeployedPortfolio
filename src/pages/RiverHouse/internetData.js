@@ -14,26 +14,42 @@ export default class InternetData extends Component {
     state = {
         isLoaded: false,
         error: null,
-        data: null
+        data: null,
+        dates: null,
+        selectedOptions: null
     }
     componentWillMount() {
         console.log("Component will mount");
+        try{
+            console.log("Fetching Todays Internet Data");
+            fetch("http://localhost:8080/get_dates", {mode:'cors'})
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    this.setState({dates:result, isLoaded:false})
+                },
+                (error) => {
+                    this.setState({error: error});
+                }
+            )
+        } catch(error) {
+            this.setState({error: error});
+            console.log(error);
+        }
         try{
             console.log("Fetching Todays Internet Data");
             fetch("http://localhost:8080/get_today_pings", {mode:'cors'})
             .then(res => res.json())
             .then(
                 (result) => {
-                    console.log(result);
                     this.setState({data:result, isLoaded:true})
                 },
-                // Note: it's important to handle errors here
-                // instead of a catch() block so that we don't swallow
-                // exceptions from actual bugs in components.
                 (error) => {
+                    this.setState({error: error});
                 }
             )
         } catch(error) {
+            this.setState({error: error});
             console.log(error);
         }
     }
@@ -46,22 +62,37 @@ export default class InternetData extends Component {
         return (
             <div>
                 <h1>Data Vis for Internet Testing</h1>
-                <h1 className="text-heading">
-                    Line Chart Using Rechart
-                </h1>
-                <ResponsiveContainer width="100%" aspect={3}>
-                    <LineChart data={this.state.data} >
+                <div>
+                    <input type="radio" value="Male" name="gender" /> Male
+                    <input type="radio" value="Female" name="gender" /> Female
+                    <input type="radio" value="Other" name="gender" /> Other
+                </div>
+                <label for="dates">Choose a car:</label>
+                <select name="dates" id="dates_available">
+                </select>
+                <ResponsiveContainer width="100%" aspect={2.5}>
+                    <LineChart data={this.state.data} title="Tellll">
                         <CartesianGrid/>
                         <XAxis dataKey="time" 
-                            interval={'preserveStartEnd'} 
-                            domain={["dataMin", "dataMax + 1"]}/>
-                        <YAxis domain={["dataMin", "dataMax + 1"]}></YAxis>
+                            label="Time"
+                            domain={['00:00:00', '23:59:00']}
+                            />
+                    
+                        <YAxis domain={['dataMin', 'dataMax']}></YAxis>
                         <Legend />
                         <Tooltip />
                         <Line dataKey="download"
-                            stroke="black" activeDot={{ r: 1 }} />
+                            stroke="black" 
+                            dot={false}
+                            />
                         <Line dataKey="upload"
-                            stroke="red" activeDot={{ r: 1 }} />
+                            stroke="blue" 
+                            dot={false}
+                            />
+                        <Line dataKey="ping"
+                            stroke="red" 
+                            dot={false}
+                            />
                     </LineChart>
                 </ResponsiveContainer>
             </div>
