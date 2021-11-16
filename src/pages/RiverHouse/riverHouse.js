@@ -3,8 +3,15 @@ import './style.css'
 import "../GenCSS/main.css"
 import Navbar from '../../Navbar/Navbar'
 import Footer from '../../Footer/Footer'
+import InternetData from './internetData'
 export default class RiverHouse extends Component {
-    static propTypes = {
+    constructor(props) {
+        super(props);
+        this.state = {
+          error: null,
+          isLoaded: false,
+          items: []
+        };
     }
     componentDidMount() {
         console.log("Mounting the page for the river page");
@@ -37,7 +44,7 @@ export default class RiverHouse extends Component {
                         <button id="cameras-button" className="river-option-button" onClick={this.getCameraInformation}>Check The View</button>
                     </div>
                     <div id="river-house-content">
-                        <h1>Data Vis for Internet Testing</h1>
+                        <InternetData/>
                     </div>
                 </div>
                 <Footer/>
