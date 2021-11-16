@@ -50,7 +50,7 @@ export default class InternetData extends Component {
                     Line Chart Using Rechart
                 </h1>
                 <ResponsiveContainer width="100%" aspect={3}>
-                    <LineChart data={this.state.data} margin={{ right: 300 }}>
+                    <LineChart data={this.state.data} >
                         <CartesianGrid/>
                         <XAxis dataKey="time" 
                             interval={'preserveStartEnd'} 
