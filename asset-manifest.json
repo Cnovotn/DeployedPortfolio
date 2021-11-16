@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/DeployedPortfolio/static/css/main.e1c14842.chunk.css",
-    "main.js": "/DeployedPortfolio/static/js/main.bf6b740d.chunk.js",
-    "main.js.map": "/DeployedPortfolio/static/js/main.bf6b740d.chunk.js.map",
-    "runtime-main.js": "/DeployedPortfolio/static/js/runtime-main.ab35da4b.js",
-    "runtime-main.js.map": "/DeployedPortfolio/static/js/runtime-main.ab35da4b.js.map",
-    "static/js/2.775a14e1.chunk.js": "/DeployedPortfolio/static/js/2.775a14e1.chunk.js",
-    "static/js/2.775a14e1.chunk.js.map": "/DeployedPortfolio/static/js/2.775a14e1.chunk.js.map",
-    "static/js/3.1855c24d.chunk.js": "/DeployedPortfolio/static/js/3.1855c24d.chunk.js",
-    "static/js/3.1855c24d.chunk.js.map": "/DeployedPortfolio/static/js/3.1855c24d.chunk.js.map",
+    "main.js": "/DeployedPortfolio/static/js/main.4a35dc41.chunk.js",
+    "main.js.map": "/DeployedPortfolio/static/js/main.4a35dc41.chunk.js.map",
+    "runtime-main.js": "/DeployedPortfolio/static/js/runtime-main.41e65377.js",
+    "runtime-main.js.map": "/DeployedPortfolio/static/js/runtime-main.41e65377.js.map",
+    "static/js/2.d9759811.chunk.js": "/DeployedPortfolio/static/js/2.d9759811.chunk.js",
+    "static/js/2.d9759811.chunk.js.map": "/DeployedPortfolio/static/js/2.d9759811.chunk.js.map",
+    "static/js/3.796907d7.chunk.js": "/DeployedPortfolio/static/js/3.796907d7.chunk.js",
+    "static/js/3.796907d7.chunk.js.map": "/DeployedPortfolio/static/js/3.796907d7.chunk.js.map",
     "index.html": "/DeployedPortfolio/index.html",
     "static/css/main.e1c14842.chunk.css.map": "/DeployedPortfolio/static/css/main.e1c14842.chunk.css.map",
-    "static/js/2.775a14e1.chunk.js.LICENSE.txt": "/DeployedPortfolio/static/js/2.775a14e1.chunk.js.LICENSE.txt",
+    "static/js/2.d9759811.chunk.js.LICENSE.txt": "/DeployedPortfolio/static/js/2.d9759811.chunk.js.LICENSE.txt",
     "static/media/ClayProfilePic.f4da852a.JPG": "/DeployedPortfolio/static/media/ClayProfilePic.f4da852a.JPG",
     "static/media/July2021ClayNovoResume.699982a3.pdf": "/DeployedPortfolio/static/media/July2021ClayNovoResume.699982a3.pdf",
     "static/media/main.css": "/DeployedPortfolio/static/media/SkiPatrolBackground.b98466eb.png",
     "static/media/style.css": "/DeployedPortfolio/static/media/SkiingBackground.3af4c716.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab35da4b.js",
-    "static/js/2.775a14e1.chunk.js",
+    "static/js/runtime-main.41e65377.js",
+    "static/js/2.d9759811.chunk.js",
     "static/css/main.e1c14842.chunk.css",
-    "static/js/main.bf6b740d.chunk.js"
+    "static/js/main.4a35dc41.chunk.js"
   ]
 }
