@@ -9,8 +9,8 @@ import {
     CartesianGrid
 } from 'recharts';
 import './style.css'
-// const API_BASE_URL = "http://10.0.0.150:8080/";
-const API_BASE_URL = "http://localhost:8080/";
+const API_BASE_URL = "http://10.0.0.150:8080/";
+// const API_BASE_URL = "http://localhost:8080/";
 
 export default class InternetData extends Component {
     constructor(props){
@@ -98,8 +98,11 @@ export default class InternetData extends Component {
         console.log(e.target.value);
         if(e.target.value == 'download') {
             console.log(!this.state.selectedOptions.download);
-            let oppo = !this.state.selectedOptions.download;
-            this.setState({download: oppo});
+            this.setState(({ download }) => ({ download: !download }));
+            // this.setState(prevState => ({
+            //     download: !prevState.download
+            //   }));
+              
         }
         e.preventDefault();
     }
