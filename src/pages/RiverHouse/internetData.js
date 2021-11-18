@@ -9,8 +9,8 @@ import {
     CartesianGrid
 } from 'recharts';
 import './style.css'
-// const API_BASE_URL = "http://10.0.0.150:8080/";
-const API_BASE_URL = "http://192.168.254.49:8080/"
+// const API_BASE_URL = "https://10.0.0.150:8080/";
+const API_BASE_URL = "https://192.168.254.49:8080/"
 // const API_BASE_URL = "http://localhost:8080/";
 
 export default class InternetData extends Component {
